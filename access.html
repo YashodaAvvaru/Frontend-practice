@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>JavaScript Advanced Practical</title>
+
+    <link rel="stylesheet" href="access.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>JavaScript Practical Programs</h1>
+      <p>Understanding Functions, Counters, Getters, Setters and Prototypes</p>
+    </header>
+
+    <main>
+      <!-- Program 1: this Keyword -->
+      <section>
+        <h2>1. Disappear Using this Keyword</h2>
+
+        <p>Click the button to make it disappear.</p>
+
+        <button onclick="this.style.display = 'none'">
+          Click Me to Disappear
+        </button>
+      </section>
+
+      <!-- Program 2: call() and apply() -->
+      <section>
+        <h2>2. Using call() and apply()</h2>
+
+        <p id="callOutput"></p>
+
+        <p id="applyOutput"></p>
+
+        <button onclick="showCallApply()">Execute call() and apply()</button>
+      </section>
+
+      <!-- Program 3: Simple Counter -->
+      <section>
+        <h2>3. Simple Counter</h2>
+
+        <div class="counter">
+          <h3>Count: <span id="count">0</span></h3>
+
+          <button onclick="incrementCount()">Count</button>
+
+          <button onclick="resetCount()">Reset</button>
+        </div>
+      </section>
+
+      <!-- Program 4: Getter and Setter Counter -->
+      <section>
+        <h2>4. Counter Using Getter and Setter</h2>
+
+        <h3>Counter Value: <span id="getterCount">0</span></h3>
+
+        <button onclick="increaseGetterCount()">Increase Counter</button>
+
+        <button onclick="resetGetterCount()">Reset Counter</button>
+      </section>
+
+      <!-- Program 5: Object Prototype -->
+      <section>
+        <h2>5. Adding Properties Using Prototypes</h2>
+
+        <p id="prototypeOutput"></p>
+
+        <button onclick="showPrototype()">Display Employee Details</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>JavaScript Practical Programs</p>
+    </footer>
+
+    <script src="access.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+/* General styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #176b87;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+/* Main content */
+main {
+  width: 85%;
+  max-width: 900px;
+  margin: 25px auto;
+}
+
+/* Individual sections */
+section {
+  background-color: white;
+  margin-bottom: 25px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section headings */
+h2 {
+  color: #176b87;
+}
+
+/* Buttons */
+button {
+  background-color: #176b87;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #104e63;
+}
+
+/* Counter */
+.counter {
+  text-align: center;
+  padding: 15px;
+  background-color: #eaf6fa;
+  border-radius: 8px;
+}
+
+.counter h3 {
+  font-size: 25px;
+}
+
+/* Footer */
+footer {
+  background-color: #176b87;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  main {
+    width: 95%;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  section {
+    padding: 15px;
+  }
+}
